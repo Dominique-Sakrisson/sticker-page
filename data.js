@@ -59,3 +59,7 @@ const stickers = [{
     shape: "circle",
 }
 ]
+
+module.exports = {
+    stickers
+}
