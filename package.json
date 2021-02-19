@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+   
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/Dominique-Sakrisson/sticker-page/issues"
   },
-  "homepage": "https://github.com/Dominique-Sakrisson/sticker-page#readme"
+  "homepage": "https://github.com/Dominique-Sakrisson/sticker-page#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "supertest": "^6.1.3"
+  }
 }
